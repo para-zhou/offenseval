@@ -24,7 +24,8 @@ Sub-task A - Offensive language identification;  [Offensive: OFF, Not Offensive:
 	* [Y]subtask B/C 相关都放在 useless文件夹
 	* [Y]Zeyad源代码放在code\_Zeyad文件夹
 - 预处理
-	* 参考Zeyad代码完成数据预处理
+	* [Y]参考Zeyad代码完成数据读入
+	* 完成预处理
 	* 同时完成report data section)
 - 模型
 	* 将实验过程汇总在一个ipynb
