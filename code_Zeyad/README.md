@@ -1,42 +1,14 @@
 # Offenseval
 SemEval 2019 - Task 6 - Identifying and Categorizing Offensive Language in Social Media 
-Sub-task A - Offensive language identification;  [Offensive: OFF, Not Offensive: NOT]
-## TODO 
-- 完成实验
-	* Pre Processing (Para)
-	* Classification 
-		- Bayes
-		- NN
-	* Visulization (可能耗时较久)
 
-- 完成报告 (不做实验是否可以完成[Y/N])
-	* [Y]Related work (可能耗时较久)
-	* [N]Data Stastics (1/2)
-	* Methods
-		- [Y]算法选择及原因说明
-		- [N]具体实现
-	* [N]Results
-	* Conclusion
+## Descrption
+A system to classifiy a tweet as either offensive or not offensive (Sub-task A) and further classifies offensive tweets into categories (Sub-tasks B – C). Some sort of grid search approach is taken where multiple techniques for preprocessing, feature extraction and classification are implemented and combinations of them all are tried to achieve the best model for the given dataset.
 
-## Plan
-[Y]： 已完成
-- 整理数据和代码 for preprocessing
-	* [Y]subtask B/C 相关都放在 useless文件夹
-	* [Y]Zeyad源代码放在code\_Zeyad文件夹
-- 预处理
-	* 参考Zeyad代码完成数据预处理
-	* 同时完成report data section)
-- 模型
-	* 将实验过程汇总在一个ipynb
-	* 完成report algorithm section II
-	* 完成training
-- Test
-	* 完成可视化
-	* 完成report Results section
-- 完成report其他部分
+## Subtasks
+- Sub-task A - Offensive language identification;  [Offensive: OFF, Not Offensive: NOT]
+- Sub-task B - Automatic categorization of offense types; [Targted: TIN, Untargeted: UNT]
+- Sub-task C: Offense target identification. [Individual: IND, Group: GRP, Other: OTH]
 
-
-## Notes from Zeyad
 ## Implementation
 
 ### Preprocessing
